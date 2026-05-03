@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Abel Tesfaye",
+      "age": 20,
+      "gender": "Male",
+      "grade": "A",
+      "department": "Computer Science"
+    },
+    {
+      "id": 2,
+      "name": "Sara Bekele",
+      "age": 22,
+      "gender": "Female",
+      "grade": "B",
+      "department": "Information Technology"
+    },
+    {
+      "id": 3,
+      "name": "Dawit Alemayehu",
+      "age": 21,
+      "gender": "Male",
+      "grade": "A",
+      "department": "Software Engineering"
+    },
+    {
+      "id": 4,
+      "name": "Hana Yohannes",
+      "age": 23,
+      "gender": "Female",
+      "grade": "C",
+      "department": "Computer Science"
+    },
+    {
+      "id": 5,
+      "name": "Samuel Kebede",
+      "age": 20,
+      "gender": "Male",
+      "grade": "B",
+      "department": "Information Systems"
+    }
+  ]
+}

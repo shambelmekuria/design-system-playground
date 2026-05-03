@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 import ReactQueryProvider from "@/providers/react-query";
 
@@ -7,6 +7,18 @@ import ReactQueryProvider from "@/providers/react-query";
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
 // });
+
+const poppins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-poppins",
+});
+
+const roboto = Roboto({
+  weight: ["100", "200", "300", "400", "500", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
 
 const geistSans = Geist({
   weight: ["400", "500", "600", "700", "800", "900", "100"],
@@ -36,7 +48,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${inter.className} antialiased`}
+        // className={`${inter.className} antialiased`}
+        className={`${poppins.variable} ${roboto.variable} antialiased`}
       >
         <ReactQueryProvider>{children}</ReactQueryProvider>
       </body>
