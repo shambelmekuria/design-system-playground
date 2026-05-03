@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 import { Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
 import ContactCard, { ColorKey } from "./contact-card";
 import Section from "@/components/ui/section";
+
 
 type contactInfoType = {
   icon: React.ComponentType<{ className?: string }>;

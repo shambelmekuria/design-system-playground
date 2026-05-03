@@ -10,7 +10,7 @@ export default function Child() {
     },
     visible: {
       opacity: 1,
-      transition: { delayChildren: stagger(0.3, { from: "last" }) },
+      transition: { delayChildren: stagger(0.3, { from: "first" }) },
     },
   };
 
@@ -32,13 +32,13 @@ export default function Child() {
         whileTap={{ scale: 0.95 }}
         className="border border-slate-200 p-4"
       >
-        <h1 className="text-2xl font-bold">Hello World</h1>
+        <h1 className="text-lg font-bold mb-1">Hello World</h1>
         <p className="text-gray-600">
           This is a simple animation example using Motion.
         </p>
       </motion.div>
       <motion.div variants={items} className="border border-slate-200 p-4">
-        <h1 className="text-2xl font-bold">Hello World</h1>
+        <h1 className="text-lg font-bold">Hello World</h1>
         <p className="text-gray-600">
           This is a simple animation example using Motion.
         </p>

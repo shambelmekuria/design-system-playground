@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Section from "@/components/ui/claude/section";
+import Section from "@/components/ui/section";
 import { Map } from "lucide-react";
 import React from "react";
 
