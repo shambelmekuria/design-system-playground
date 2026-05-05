@@ -4,10 +4,10 @@ import React from "react";
 export default function Page() {
   return (
     <>
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-neutral-900 text-white py-16 px:4 md:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4">Join Our Commnuity</h2>
-          <p className="text-neutral-200 mb-6">
+          <h2 className="text-5xl font-bold mb-6">Join Our Commnuity</h2>
+          <p className="text-neutral-200 mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
             iusto? Hic sequi voluptatum totam laboriosam in odit vel cumque
             cupiditate.
@@ -17,11 +17,11 @@ export default function Page() {
           </button>
         </div>
       </section>
-      <section className="bg-neutral-800 text-neutral-200 py-8 px-4 md:px-6">
+      <section className="bg-neutral-900 text-neutral-300 py-8 px-4 md:px-6 border-t border-border border-t-neutral-600">
         <div className="max-w-6xl mx-auto">
-          <div className="flex  justify-between items-center text-sm gap-6">
-            <p>Allright are Revised</p>
-            <ul className="inline-flex gap-4 items-center">
+          <div className="flex flex-col justify-center items-center md:flex-row md:justify-between :items-center text-sm gap-6">
+            <p className="text-sm text-slate-300">Allright are Revised</p>
+            <ul className="inline-flex gap-4 items-center text-sm text-slate-300">
               <li className="hover:text-white transition-colors duration-200 ease-in-out">
                 <Link href="#">Home</Link>
               </li>

@@ -1,11 +1,46 @@
 import { Button } from "@/components/ui/button";
 import Section from "@/components/ui/section";
-import { Map } from "lucide-react";
+import { HandCoins, Map, Phone, Settings } from "lucide-react";
 import React from "react";
+import { FaTeamspeak } from "react-icons/fa6";
 
 export default function Page() {
   return (
     <>
+    <Section size="sm" aria-label="Icon">
+      <Button>Login Button</Button>
+   <div className="max-w-6xl">
+       <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+        <div className="p-4  flex items-center gap-4 border shadow-sm rounded-xl">
+          <div className="shrink-0 size-18 rounded-full bg-orange-600 text-white flex justify-center items-center">
+            <HandCoins size={32}/>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-1">Best Price Granted</h3>
+            <p className="text-slate-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+        <div className="p-4  flex items-center gap-4 border shadow-sm rounded-xl">
+          <div className="shrink-0 size-18 rounded-full bg-emerald-600 text-white flex justify-center items-center">
+            <HandCoins size={32}/>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-1">Best Price Granted</h3>
+            <p className="text-neutral-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+        <div className="p-4  flex items-center gap-4 border shadow-sm rounded-xl">
+          <div className="shrink-0 size-18 rounded-full bg-orange-600 text-white flex justify-center items-center">
+            <FaTeamspeak size={32}/>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-1">Professional Team</h3>
+            <p className="text-neutral-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+   </div>
+    </Section>
       <Section
         variant="muted"
         size="md"
