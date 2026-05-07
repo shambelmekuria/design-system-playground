@@ -64,7 +64,7 @@ export default function ContactCard({
           colors.hoverText,
         )}
       >
-        <Icon className="h-5 w-5" />
+        <Icon className="h-5 w-5 shrink-0" />
       </div>
       <div>
         <p className="text-sm text-neutral-800 font-medium mb-1">{title}</p>
